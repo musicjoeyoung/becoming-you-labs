@@ -1,4 +1,4 @@
-import { TaskFilters } from '@/types/task'
+import type { TaskFilters } from '@/types/task'
 
 interface TaskFiltersProps {
     filters: TaskFilters
@@ -7,7 +7,7 @@ interface TaskFiltersProps {
     availableTags: string[]
 }
 
-const TaskFiltersComponent = ({
+const TaskFilters = ({
     filters,
     onFiltersChange,
     availableAssignees,
@@ -97,4 +97,4 @@ const TaskFiltersComponent = ({
         </div>
     )
 }
-export default TaskFiltersComponent
+export default TaskFilters
