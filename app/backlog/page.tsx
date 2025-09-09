@@ -138,7 +138,7 @@ const Backlog = () => {
                         <span className="text-sm font-medium text-gray-700">Sort by:</span>
                         <select
                             value={sortBy}
-                            onChange={(e) => setSortBy(e.target.value as any)}
+                            onChange={(e) => setSortBy(e.target.value as 'createdAt' | 'title' | 'assignee' | 'priority')}
                             className="border border-gray-300 rounded-lg px-3 py-1 text-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                         >
                             <option value="createdAt">Date Created</option>
