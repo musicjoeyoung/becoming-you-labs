@@ -121,7 +121,7 @@ const HomePage = () => {
         />
       </div>
 
-      <div className="flex gap-6 overflow-x-auto pb-4">
+      <div className="flex flex-col md:flex-row gap-6 overflow-x-auto pb-4">
         <TaskColumn
           title="Scheduled"
           status="scheduled"

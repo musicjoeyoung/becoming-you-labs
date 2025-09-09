@@ -28,7 +28,7 @@ const TaskCard = ({ task, onClick, draggable = false, onDragStart }: TaskCardPro
 
     return (
         <div
-            className={`task-card ${getPriorityColor(task.priority)} border-l-4`}
+            className={`task-card ${getPriorityColor(task.priority)} border-l-4 p-4`}
             onClick={onClick}
             draggable={draggable}
             onDragStart={onDragStart}
