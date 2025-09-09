@@ -72,4 +72,4 @@ Roughly 4 hours total (slightly over 4 hours): setup, planning, components, filt
 * Convert repeated SVGs into a tiny icon system.
 * Add more signifcant tests.
 * Accessibility polish: focus trap, ARIA labels for icons, announce changes.
-* Dark mode toggle.
+* Dark mode toggle would be nice.
